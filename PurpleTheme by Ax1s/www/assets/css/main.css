@@ -1,0 +1,197 @@
+body{
+	background-image: url('../img/background/home_background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: black;
+    color:white; 
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	url('../img/background/home_background.png') no-repeat center center fixed;
+}
+
+html{
+  color:white;
+}
+
+a {
+  color: white;
+-webkit-transition: color 0.5s ease-out;
+ -moz-transition: color 0.5s ease-out;
+ -o-transition: color 0.5s ease-out;
+ -ms-transition: color 0.5s ease-out;
+ transition: color 0.5s ease-out;
+}
+a:hover {
+   color: rgba(226, 24, 159, 0.84);
+}
+/ Small screen / tablet
+@container-tablet:            ((720px + @grid-gutter-width));
+
+// Medium screen / desktop
+@container-desktop:           ((940px + @grid-gutter-width));
+
+// Large screen / wide desktop
+@container-lg-desktop:        ((1020px + @grid-gutter-width));
+
+footer {
+   position: relative;
+   margin-top: 40px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+}
+.footer-bottom{
+  padding: 2em;
+}
+
+.tblack{
+background:rgba(0,0,0,0.5);
+}
+
+.zoom {
+    transition: transform .5s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+
+/*širka scroll*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+/*zaoblenie hran borderu*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+/*Zaoblenie, farba scrolera*/
+::-webkit-scrollbar-thumb {
+    background: rgba(179, 0, 137, 0.74); 
+    border-radius: 10px;
+}
+/*Farba pre mobili*/
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(129, 14, 91, 0.72); 
+
+/* Farebne označovanie webu */
+}
+::selection {
+  background: rgba(129, 14, 91, 0.72);
+}
+::-moz-selection {
+  background: rgba(129, 14, 91, 0.72);
+}
+
+.lines{
+  border: 2px solid #b300b3;
+  border-top: 5px 2px solid #b300b3;
+}
+
+.owner{
+  background-image: url("../img/avatars/ax1s.png");
+  margin-left: 8%;
+  padding-right: 64px;
+  height:64px; 
+  width:64px;
+  border: 2px solid #b300b3;
+  border-top: 5px 2px solid #b300b3;
+}
+
+.dakujeme{
+  background:rgba(13, 189, 0, 0.38);
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+}
+
+.kontakt{
+  background:rgba(0,0,0,0.5);
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+}
+
+.status{
+background:rgba(0,0,0,0.5);
+padding-bottom: 30px;
+padding-top:;
+margin-bottom: 15px;
+margin-right: 50px; 
+}
+
+/* NEWS news.php START */
+.news_owner{
+  background-image: url("../img/avatars/ax1s.png");
+  margin-left: 2%;
+  margin-top: -11%;
+  margin-bottom: 15%;
+  height:64px; 
+  width:64px;
+  border: 2px solid #b300b3;
+  border-top: 5px 2px solid #b300b3;
+}
+
+.owne_name_news{
+  margin-top:-15%;
+  margin-left: 1.8%;
+}
+
+.tblack-news{
+  padding-top:50px;
+  padding-bottom: 50px;
+  background:rgba(0,0,0,0.5);
+}
+
+.news-title{
+  margin-left: 11%;
+  margin-top: -2%;
+  color:#cc00cc
+}
+
+.news-text{
+  margin-left: 14%;
+  color:gray
+}
+/* NEWS news.php END */
+
+
+/* TEAM team.php Start */
+.team_pozadie{
+  padding-top:5%;
+  padding-bottom: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
+  background:rgba(0,0,0,0.5);
+}
+
+.team_popis{
+  margin-left:27%;
+  margin-top: -50%;
+}
+
+/* TEAM team.php END */
+
+.vip{
+  padding-top:5%;
+  padding-bottom: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
+  background:rgba(0,0,0,0.5);
+}
+
+.vip_main{
+  margin-right: 4%;
+  margin-left: 4%;
+  background:rgba(0,0,0,0.5);
+}
+
+.vip_benefits{
+  margin-top: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
